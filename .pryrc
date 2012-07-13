@@ -7,15 +7,10 @@ Pry.config.theme = "solarized"
 
 # Custom prompt
 prompt = "ruby-#{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
-prompt << "@#{Rails.version}" if defined?(Rails)
 Pry.config.prompt = [
-  proc { |obj, nest_level| "#{prompt} (#{obj}):#{nest_level} > " },
-  proc { |obj, nest_level| "#{prompt} (#{obj}):#{nest_level} * " }
+  proc { |obj, nest_level, _| "#{prompt} (#{obj}):#{nest_level} > " },
+  proc { |obj, nest_level, _| "#{prompt} (#{obj}):#{nest_level} * " }
 ]
-
-Pry.config.hooks.add_hook :after_session, :say_bye do
-  puts "bye-bye" if Pry.active_sessions == 1
-end
 
 # Default Command Set, add custom methods here:
 default_command_set = Pry::CommandSet.new do
@@ -28,7 +23,7 @@ end
 # $ gem install awesome_print
 begin
   require 'awesome_print'
-  Pry.config.print = proc { |output, value| output.puts value.ai(indent: 2) }
+  Pry.config.print = proc { |output, value| output.puts value.ai(:indent => 2) }
 rescue LoadError => e
   warn "[WARN] #{e}"
   puts "$ gem install awesome_print"
@@ -50,19 +45,19 @@ end
 
 # Launch Pry with access to the entire Rails stack.
 rails = File.join(Dir.getwd, 'config', 'environment.rb')
-if defined?(Rails) && File.exist?(rails) && ENV['SKIP_RAILS'].nil?
+if File.exist?(rails) && ENV['SKIP_RAILS'].nil?
   require rails
-  case Rails.version[0..0].to_f
+  case Rails.version.to_i
   when 2
     require 'console_app'
     require 'console_with_helpers'
   when 3
-    require 'console_app'
-    require 'console_with_helpers'
-    include Rails::ConsoleMethods if Rails.version[0..2].to_f >= 3.2
+    require 'rails/console/app'
+    require 'rails/console/helpers'
+    extend Rails::ConsoleMethods if Rails.version.to_f >= 3.2
   else
     warn "[WARN] cannot load Rails console commands"
   end
 end
 
-Pry.config.commands.import default_command_set
+Pry.config.commands.import(default_command_set)
