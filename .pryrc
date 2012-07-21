@@ -1,5 +1,4 @@
 Pry.config.editor = "subl -w"
-Pry.config.editor = proc { |file, line| "#{Pry.config.editor} #{file}:#{line}" }
 
 # https://github.com/kyrylo/pry-theme
 # $ gem install pry-theme
