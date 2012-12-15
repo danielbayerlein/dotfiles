@@ -7,7 +7,8 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
-Bundle 'wincent/Command-T'
+Bundle 'kien/ctrlp.vim'
+Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on " Enable filetype plugins
 
@@ -33,9 +34,9 @@ endif
 set visualbell   " Don't beep
 set noerrorbells " Don't beep
 
-" Change the mapleader from "\" to ","
-let mapleader=","
-let g:mapleader=","
+" Change the mapleader from '\' to ','
+let mapleader=','
+let g:mapleader=','
 
 let NERDTreeShowHidden=1
 map <Leader>n :NERDTreeToggle<CR>
@@ -65,4 +66,10 @@ set t_Co=256 " 256 color mode
 set background=dark
 colorscheme solarized
 let g:solarized_termcolors=256
-set guifont=Monaco:h12
+" set guifont=Monaco:h12
+
+" Powerline
+set guifont=Monaco\ for\ Powerline:h12
+let g:Powerline_symbols='fancy'
+" let g:Powerline_theme='solarized256'
+let g:Powerline_colorscheme='solarized256'
