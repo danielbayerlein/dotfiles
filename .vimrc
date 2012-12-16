@@ -9,6 +9,8 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'tpope/vim-haml'
 
 filetype plugin indent on " Enable filetype plugins
 
@@ -30,6 +32,8 @@ set showmode     " Show the current mode
 if version >= 703
   set colorcolumn=80
 endif
+set list         " Display unprintable characters
+set listchars=tab:→\ ,trail:·,extends:»,precedes:«
 
 set visualbell   " Don't beep
 set noerrorbells " Don't beep
@@ -40,6 +44,12 @@ let g:mapleader=','
 
 let NERDTreeShowHidden=1
 map <Leader>n :NERDTreeToggle<CR>
+
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
 au BufWritePre * :set binary | set noeol
 au BufWritePost * :set nobinary | set eol
@@ -73,3 +83,4 @@ set guifont=Monaco\ for\ Powerline:h12
 let g:Powerline_symbols='fancy'
 " let g:Powerline_theme='solarized256'
 let g:Powerline_colorscheme='solarized256'
+let g:Powerline_stl_path_style='short'
