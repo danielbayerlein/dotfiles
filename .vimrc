@@ -5,19 +5,29 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+" Essential Plugins
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'tsaleh/vim-supertab'
+Bundle 'tpope/vim-endwise'
+Bundle 'Townk/vim-autoclose'
+
+" Syntax highlighting
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-haml'
-Bundle 'Lokaltog/vim-easymotion'
+Bundle 'vim-ruby/vim-ruby'
 
 filetype plugin indent on " Enable filetype plugins
 
 set encoding=utf-8    " Set utf-8 as standard encoding
 set clipboard=unnamed " Use the OS clipboard by default
 set wildmenu          " Wild char completion menu
+set wildmode=list:longest,list:full
 set mouse=a           " Enable mouse in all modes
 set autoread          " Set to auto read when a file is changed from the outside
 
@@ -33,8 +43,12 @@ set showmode     " Show the current mode
 if version >= 703
   set colorcolumn=80
 endif
-set list         " Display unprintable characters
-set listchars=tab:→\ ,trail:·,extends:»,precedes:«
+
+" Display unprintable characters
+set list listchars=tab:→\ ,trail:·,extends:»,precedes:«
+
+" Allow backspacing over everything in insert mode
+set backspace=indent,eol,start
 
 set visualbell   " Don't beep
 set noerrorbells " Don't beep
@@ -54,6 +68,9 @@ map <C-l> <C-w>l
 
 au BufWritePre * :set binary | set noeol
 au BufWritePost * :set nobinary | set eol
+
+" Automatically removing all trailing whitespace
+autocmd FileType coffee,javascript,ruby,haml,scss autocmd BufWritePre <buffer> :%s/\s\+$//e
 
 " Indentation settings
 set nowrap       " Don't wrap lines
