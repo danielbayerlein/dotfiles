@@ -11,6 +11,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-haml'
+Bundle 'Lokaltog/vim-easymotion'
 
 filetype plugin indent on " Enable filetype plugins
 
