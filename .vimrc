@@ -50,6 +50,8 @@ set list listchars=tab:→\ ,trail:·,extends:»,precedes:«
 " Allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
+set hidden " Buffers are hidden instead of closed
+
 set visualbell   " Don't beep
 set noerrorbells " Don't beep
 
