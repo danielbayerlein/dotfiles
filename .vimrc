@@ -68,8 +68,8 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-au BufWritePre * :set binary | set noeol
-au BufWritePost * :set nobinary | set eol
+" au BufWritePre * :set binary | set noeol
+" au BufWritePost * :set nobinary | set eol
 
 " Automatically removing all trailing whitespace
 autocmd FileType coffee,javascript,ruby,haml,scss autocmd BufWritePre <buffer> :%s/\s\+$//e
