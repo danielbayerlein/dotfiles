@@ -1,11 +1,11 @@
 # Dotfiles - Configuration files for Vim, Prezto and Pry
 
 ## [Vim](http://www.vim.org)
-* [.vimrc](/danielbayerlein/dotfiles/blob/master/.vimrc)
+* [.vimrc](.vimrc)
 
-## [Prezto](/sorin-ionescu/prezto) - Prezto is the configuration framework for [Zsh](http://www.zsh.org)
-* [.zshrc](/danielbayerlein/dotfiles/blob/master/.zshrc)
-* [.zpreztorc](/danielbayerlein/dotfiles/blob/master/.zpreztorc)
+## [Prezto](https://github.com/sorin-ionescu/prezto) - Prezto is the configuration framework for [Zsh](http://www.zsh.org)
+* [.zshrc](.zshrc)
+* [.zpreztorc](.zpreztorc)
 
-## [Pry](/pry/pry) - Pry is a powerful alternative to the standard IRB shell for Ruby
-* [.pryrc](/danielbayerlein/dotfiles/blob/master/.pryrc)
+## [Pry](https://github.com/pry/pry) - Pry is a powerful alternative to the standard IRB shell for Ruby
+* [.pryrc](.pryrc)
