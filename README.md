@@ -11,8 +11,10 @@
 * [.pryrc](.pryrc)
 
 ## [Sublime Text 2](http://www.sublimetext.com) - The text editor you'll fall in love with
-* [Preferences.sublime-settings](https://gist.github.com/2793943)
-* [SublimeLinter.sublime-settings](https://gist.github.com/4233547)
+* [Preferences.sublime-settings](https://gist.github.com/danielbayerlein/2793943)
+* [SublimeLinter.sublime-settings](https://gist.github.com/danielbayerlein/4233547)
  * [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) - Inline lint highlighting for the Sublime Text 2 editor
-* [DetectSyntax.sublime-settings](https://gist.github.com/4233407)
+* [DetectSyntax.sublime-settings](https://gist.github.com/danielbayerlein/4233407)
  * [DetectSyntax](https://github.com/phillipkoebbe/DetectSyntax) - Syntax detector for Sublime Text 2 
+* [Side Bar.sublime-settings](https://gist.github.com/danielbayerlein/5114977)
+ * [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) - Enhancements to Sublime Text sidebar. Files and folders. 
