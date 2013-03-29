@@ -2,7 +2,7 @@ Pry.config.editor = "subl -w"
 
 # https://github.com/kyrylo/pry-theme
 # $ gem install pry-theme
-Pry.config.theme = "solarized"
+Pry.config.theme = "tomorrow"
 
 # Custom prompt
 prompt = "ruby-#{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
