@@ -8,14 +8,17 @@ call vundle#rc()
 " Essential Plugins
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kien/ctrlp.vim'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/powerline'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'tsaleh/vim-supertab'
 Bundle 'tpope/vim-endwise'
 Bundle 'Townk/vim-autoclose'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'tpope/vim-fugitive'
 
 " Syntax highlighting
 Bundle 'kchmck/vim-coffee-script'
@@ -62,14 +65,11 @@ let g:mapleader=','
 let NERDTreeShowHidden=1
 map <Leader>n :NERDTreeToggle<CR>
 
-" Easy window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-
-" au BufWritePre * :set binary | set noeol
-" au BufWritePost * :set nobinary | set eol
+" Easy split navigation
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
 
 " Automatically removing all trailing whitespace
 autocmd FileType coffee,javascript,ruby,haml,scss autocmd BufWritePre <buffer> :%s/\s\+$//e
@@ -94,13 +94,21 @@ set noswapfile " Do not write annoying intermediate swap files
 " Default color scheme
 set t_Co=256 " 256 color mode
 set background=dark
-colorscheme solarized
-let g:solarized_termcolors=256
-" set guifont=Monaco:h12
+colorscheme Tomorrow-Night
+
+" Vim Git Gutter
+highlight clear SignColumn
 
 " Powerline
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set guifont=Monaco\ for\ Powerline:h12
-let g:Powerline_symbols='fancy'
-" let g:Powerline_theme='solarized256'
-let g:Powerline_colorscheme='solarized256'
-let g:Powerline_stl_path_style='short'
+set noshowmode
+
+if ! has('gui_running')
+  set ttimeoutlen=10
+  augroup FastEscape
+      autocmd!
+      au InsertEnter * set timeoutlen=0
+      au InsertLeave * set timeoutlen=1000
+  augroup END
+endif
