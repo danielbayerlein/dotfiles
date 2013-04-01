@@ -1,0 +1,19 @@
+{
+  "auto_upgrade_last_run": null,
+  "installed_packages":
+  [
+    "ApacheConf.tmLanguage",
+    "ApplySyntax",
+    "CoffeeScript",
+    "EasyMotion",
+    "Gem Browser",
+    "GitGutter",
+    "Haml",
+    "jQuery",
+    "Package Control",
+    "SCSS",
+    "SideBarEnhancements",
+    "SublimeLinter",
+    "TideSDK Autocomplete"
+  ]
+}

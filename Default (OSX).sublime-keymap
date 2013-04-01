@@ -1,0 +1,23 @@
+[
+  // Sublime EasyMotion - https://github.com/tednaleid/sublime-EasyMotion
+  {
+    "keys": ["super+ö", "<character>"],
+    "command": "easy_motion",
+    "args": {"select_text": false}
+  },
+  {
+    "keys": ["super+ö", "enter"],
+    "command": "easy_motion",
+    "args": {"select_text": false, "character": "enter"}
+  },
+  {
+    "keys": ["super+shift+ö", "<character>"],
+    "command": "easy_motion",
+    "args": {"select_text": true}
+  },
+  {
+    "keys": ["super+shift+ö", "enter"],
+    "command": "easy_motion",
+    "args": {"select_text": true, "character": "enter"}
+  }
+]
