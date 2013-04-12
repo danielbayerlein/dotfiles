@@ -2,7 +2,9 @@ Pry.config.editor = "subl -w"
 
 # https://github.com/kyrylo/pry-theme
 # $ gem install pry-theme
-Pry.config.theme = "tomorrow"
+# $ pry
+# $ pry-theme install tomorrow-night
+Pry.config.theme = "tomorrow-night"
 
 # Custom prompt
 prompt = "ruby-#{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
