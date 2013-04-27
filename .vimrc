@@ -63,6 +63,7 @@ let mapleader=','
 let g:mapleader=','
 
 let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\~$', '^\.bundle$', '^\.git$', '^\.sass-cache$']
 map <Leader>n :NERDTreeToggle<CR>
 
 " Easy split navigation
