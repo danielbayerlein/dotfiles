@@ -1,10 +1,10 @@
-Pry.config.editor = "subl -w"
+Pry.config.editor = 'subl -w'
 
 # https://github.com/kyrylo/pry-theme
 # $ gem install pry-theme
 # $ pry
 # $ pry-theme install tomorrow-night
-Pry.config.theme = "tomorrow-night"
+Pry.config.theme = 'tomorrow-night'
 
 # Custom prompt
 prompt = "ruby-#{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
@@ -15,8 +15,10 @@ Pry.config.prompt = [
 
 # Default Command Set, add custom methods here:
 default_command_set = Pry::CommandSet.new do
-  command "pccopy", "Copy argument to the clip-board" do |str|
-     IO.popen('pbcopy', 'w') { |f| f << str.to_s }
+  command 'copy', 'Copy to clipboard' do |str|
+    str = "#{_pry_.input_array[-1]}#=> #{_pry_.last_result}\n" unless str
+    IO.popen('pbcopy', 'r+') { |io| io.puts str }
+    output.puts "-- Copy to clipboard --\n#{str}"
   end
 end
 
@@ -27,7 +29,7 @@ begin
   Pry.config.print = proc { |output, value| output.puts value.ai(:indent => 2) }
 rescue LoadError => e
   warn "[WARN] #{e}"
-  puts "$ gem install awesome_print"
+  puts '$ gem install awesome_print'
 end
 
 # Use Array.toy to get an array to play with
@@ -57,7 +59,7 @@ if File.exist?(rails) && ENV['SKIP_RAILS'].nil?
     require 'rails/console/helpers'
     extend Rails::ConsoleMethods if Rails.version.to_f >= 3.2
   else
-    warn "[WARN] cannot load Rails console commands"
+    warn '[WARN] cannot load Rails console commands'
   end
 end
 
