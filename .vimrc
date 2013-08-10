@@ -10,7 +10,7 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kien/ctrlp.vim'
-Bundle 'Lokaltog/powerline'
+Bundle 'bling/vim-airline'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'scrooloose/syntastic'
@@ -100,8 +100,9 @@ colorscheme Tomorrow-Night
 " Vim Git Gutter
 highlight clear SignColumn
 
-" Powerline
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+" vim-airline
+let g:airline_theme='tomorrow'
+let g:airline_powerline_fonts = 1
 set guifont=Monaco\ for\ Powerline:h12
 set noshowmode
 
