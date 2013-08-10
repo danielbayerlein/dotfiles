@@ -19,6 +19,7 @@ Bundle 'tpope/vim-endwise'
 Bundle 'Townk/vim-autoclose'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-fugitive'
+Bundle 'terryma/vim-multiple-cursors'
 
 " Syntax highlighting
 Bundle 'kchmck/vim-coffee-script'
