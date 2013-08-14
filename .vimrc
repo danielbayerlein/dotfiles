@@ -20,6 +20,7 @@ Bundle 'Townk/vim-autoclose'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-fugitive'
 Bundle 'terryma/vim-multiple-cursors'
+Bundle 'moll/vim-bbye'
 
 " Syntax highlighting
 Bundle 'kchmck/vim-coffee-script'
@@ -66,6 +67,9 @@ let g:mapleader=','
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\~$', '^\.DS_Store$', '^\.bundle$', '^\.git$', '^\.sass-cache$']
 map <Leader>n :NERDTreeToggle<CR>
+
+" Bbye (Buffer Bye) for Vim
+:nnoremap <Leader>q :Bdelete<CR>
 
 " Easy split navigation
 nmap <C-h> <C-w>h
