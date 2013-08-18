@@ -20,10 +20,7 @@
   "font_face": "Monaco",
   "highlight_line": true,
   "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
+  "ignored_packages": [],
   "rulers":
   [
     80
@@ -31,5 +28,6 @@
   "show_full_path": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
+  "trim_trailing_white_space_on_save": true,
+  "vintage_start_in_command_mode": true
 }
