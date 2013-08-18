@@ -66,6 +66,7 @@ let g:mapleader=','
 
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\~$', '^\.DS_Store$', '^\.bundle$', '^\.git$', '^\.sass-cache$']
+let g:nerdtree_tabs_open_on_console_startup=1
 map <Leader>n :NERDTreeToggle<CR>
 
 " Bbye (Buffer Bye) for Vim
@@ -116,7 +117,7 @@ highlight clear SignColumn
 
 " vim-airline
 let g:airline_theme='tomorrow'
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
 set guifont=Monaco\ for\ Powerline:h12
 set noshowmode
 
