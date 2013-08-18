@@ -64,6 +64,7 @@ set noerrorbells " Don't beep
 let mapleader=','
 let g:mapleader=','
 
+" NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\~$', '^\.DS_Store$', '^\.bundle$', '^\.git$', '^\.sass-cache$']
 let g:nerdtree_tabs_open_on_console_startup=1
@@ -96,12 +97,15 @@ set smartcase  " Ignore case if search pattern is all lc, cs or otherwise
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
-  " Use Ag over Grep
+  " Use ag over Grep
   set grepprg=ag\ --nogroup\ --nocolor
 
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+  let g:ctrlp_user_command='ag %s -l --nocolor -g ""'
 endif
+
+" CtrlP
+let g:ctrlp_show_hidden=1
 
 " Backup / Swap File
 set nobackup   " Do not keep backup files
