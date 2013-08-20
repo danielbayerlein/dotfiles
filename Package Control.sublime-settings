@@ -1,5 +1,4 @@
 {
-  "auto_upgrade_last_run": null,
   "installed_packages":
   [
     "ApacheConf.tmLanguage",
@@ -13,7 +12,6 @@
     "Package Control",
     "SCSS",
     "SideBarEnhancements",
-    "SublimeLinter",
-    "TideSDK Autocomplete"
+    "SublimeLinter"
   ]
 }
