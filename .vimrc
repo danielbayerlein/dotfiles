@@ -67,8 +67,11 @@ let g:mapleader=','
 " NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\~$', '^\.DS_Store$', '^\.bundle$', '^\.git$', '^\.sass-cache$']
-let g:nerdtree_tabs_open_on_console_startup=1
 map <Leader>n :NERDTreeToggle<CR>
+
+if argc() > 0 && isdirectory(argv(0))
+  autocmd VimEnter * let g:nerdtree_tabs_open_on_console_startup=1
+endif
 
 " Bbye (Buffer Bye) for Vim
 :nnoremap <Leader>q :Bdelete<CR>
