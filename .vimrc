@@ -21,6 +21,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-fugitive'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'moll/vim-bbye'
+Bundle 'matze/vim-move'
 
 " Syntax highlighting
 Bundle 'kchmck/vim-coffee-script'
@@ -78,6 +79,13 @@ nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
+
+" vim-move
+let g:move_map_keys = 0
+vmap º <Plug>MoveBlockDown
+vmap ∆ <Plug>MoveBlockUp
+nmap º <Plug>MoveLineDown
+nmap ∆ <Plug>MoveLineUp
 
 " Automatically removing all trailing whitespace
 autocmd FileType coffee,javascript,ruby,haml,scss autocmd BufWritePre <buffer> :%s/\s\+$//e
