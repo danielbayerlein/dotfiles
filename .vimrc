@@ -22,6 +22,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'moll/vim-bbye'
 Bundle 'matze/vim-move'
+Bundle 'duff/vim-scratch'
 
 " Syntax highlighting
 Bundle 'kchmck/vim-coffee-script'
@@ -68,8 +69,11 @@ let g:mapleader=','
 " NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\~$', '^\.DS_Store$', '^\.bundle$', '^\.git$', '^\.sass-cache$']
-let g:nerdtree_tabs_open_on_console_startup=1
 map <Leader>n :NERDTreeToggle<CR>
+if argc() > 0 && isdirectory(argv(0))
+  autocmd VimEnter * Scratch
+  autocmd VimEnter * NERDTreeTabsOpen
+endif
 
 " Bbye (Buffer Bye) for Vim
 :nnoremap <Leader>q :Bdelete<CR>
