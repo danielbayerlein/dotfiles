@@ -21,6 +21,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-fugitive'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'moll/vim-bbye'
+Bundle 'duff/vim-scratch'
 
 " Syntax highlighting
 Bundle 'kchmck/vim-coffee-script'
@@ -70,7 +71,8 @@ let NERDTreeIgnore=['\~$', '^\.DS_Store$', '^\.bundle$', '^\.git$', '^\.sass-cac
 map <Leader>n :NERDTreeToggle<CR>
 
 if argc() > 0 && isdirectory(argv(0))
-  autocmd VimEnter * let g:nerdtree_tabs_open_on_console_startup=1
+  autocmd VimEnter * Scratch
+  autocmd VimEnter * NERDTreeTabsOpen
 endif
 
 " Bbye (Buffer Bye) for Vim
