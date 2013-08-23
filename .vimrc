@@ -69,6 +69,8 @@ let g:mapleader=','
 " NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\~$', '^\.DS_Store$', '^\.bundle$', '^\.git$', '^\.sass-cache$']
+let g:nerdtree_tabs_open_on_console_startup = 0
+let g:nerdtree_tabs_open_on_gui_startup = 0
 map <Leader>n :NERDTreeToggle<CR>
 if argc() > 0 && isdirectory(argv(0))
   autocmd VimEnter * Scratch
