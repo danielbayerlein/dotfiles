@@ -27,6 +27,7 @@ Bundle 'matze/vim-move'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-haml'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'nono/vim-handlebars'
 
 filetype plugin indent on " Enable filetype plugins
 
