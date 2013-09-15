@@ -35,6 +35,9 @@ set clipboard=unnamed " Use the OS clipboard by default
 set wildmenu          " Wild char completion menu
 set wildmode=list:longest,list:full
 set mouse=a           " Enable mouse in all modes
+if exists('$TMUX')
+  set ttymouse=xterm2 " Support resizing in tmux
+endif
 set autoread          " Set to auto read when a file is changed from the outside
 
 syntax on        " Syntax highlighting
