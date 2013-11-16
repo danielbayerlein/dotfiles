@@ -5,7 +5,7 @@
 1. Install [Peridot](https://github.com/svenwin/peridot) via:
 
    ```bash
-   $ gem install peridot
+   $ gem install peridot -v 0.1.1
    ```
 
 2. [Download](../../archive/master.zip) or clone the repository via:
