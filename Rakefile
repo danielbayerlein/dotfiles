@@ -42,7 +42,6 @@ namespace :vim do
     end
 
     # $ rake vim:vundle:run
-    desc 'Install Vundle'
     desc 'Run Vundle'
     task :run => :install do
       system('vim +BundleClean! +BundleInstall +qall')
