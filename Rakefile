@@ -24,7 +24,6 @@ namespace :dotfiles do
   # $ rake dotfiles:git
   desc 'Generate .gitconfig'
   task :git do
-    set(:git_email, ENV['GIT_EMAIL'])
     generate_file(repo_file('.gitconfig.erb'), home_file('.gitconfig'))
   end
 end
