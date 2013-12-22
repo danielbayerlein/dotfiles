@@ -13,7 +13,8 @@
       "name": "Ruby",
       "rules": [
         {"file_name": ".*\\Termfile$"},
-        {"file_name": ".*\\god$"}
+        {"file_name": ".*\\god$"},
+        {"file_name": ".*\\cheatsheet$"}
       ]
     }
   ]
