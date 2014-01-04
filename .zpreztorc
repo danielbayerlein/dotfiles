@@ -10,7 +10,7 @@
 #
 
 # Set case-sensitivity for completion, history lookup, etc.
-zstyle ':prezto:*:*' case-sensitive 'no'
+# zstyle ':prezto:*:*' case-sensitive 'yes'
 
 # Color output (auto set to 'no' on dumb terminals).
 zstyle ':prezto:*:*' color 'yes'
@@ -35,6 +35,7 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'archive' \
   'ruby' \
+  'homebrew' \
   'osx' \
   'syntax-highlighting' \
   'history-substring-search' \
@@ -128,7 +129,6 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 #   'builtin' 'bg=blue' \
 #   'command' 'bg=blue' \
 #   'function' 'bg=blue'
-#
 
 #
 # Terminal
@@ -136,6 +136,12 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 
 # Auto set the tab and window titles.
 zstyle ':prezto:module:terminal' auto-title 'yes'
+
+# Set the window title format.
+# zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
+
+# Set the tab title format.
+# zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
 
 #
 # Tmux
