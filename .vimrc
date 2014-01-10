@@ -126,13 +126,13 @@ set noswapfile " Do not write annoying intermediate swap files
 " Default color scheme
 set t_Co=256 " 256 color mode
 set background=dark
-colorscheme Tomorrow-Night
+colorscheme base16-ocean
 
 " Vim Git Gutter
 highlight clear SignColumn
 
 " vim-airline
-let g:airline_theme='tomorrow'
+let g:airline_theme='base16'
 let g:airline_powerline_fonts=1
 set guifont=Monaco\ for\ Powerline:h12
 set noshowmode
