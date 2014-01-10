@@ -53,11 +53,11 @@ rake watch               # Watches for changes and reruns rake
 * [RubyGems](https://rubygems.org) is the Ruby community's gem hosting service
  * [.gemrc](.gemrc)
 
-* [Sublime Text 2](http://www.sublimetext.com) - The text editor you'll fall in love with
+* [Sublime Text 3](http://www.sublimetext.com/3) - The text editor you'll fall in love with
  * [Preferences.sublime-settings](Preferences.sublime-settings)
  * [Default (OSX).sublime-keymap](Default \(OSX\).sublime-keymap)
- * [Package Control.sublime-settings](Package Control.sublime-settings) ([Sublime Package Control](https://github.com/wbond/sublime_package_control) - A full-featured package manager for Sublime Text 2)
- * [SublimeLinter.sublime-settings](SublimeLinter.sublime-settings) ([SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) - Inline lint highlighting for the Sublime Text 2 editor)
+ * [Package Control.sublime-settings](Package Control.sublime-settings) ([Sublime Package Control](https://github.com/wbond/sublime_package_control) - A full-featured package manager for Sublime Text 3)
+ * [SublimeLinter.sublime-settings](SublimeLinter.sublime-settings) ([SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) - Inline lint highlighting for the Sublime Text 3 editor)
  * [ApplySyntax.sublime-settings](ApplySyntax.sublime-settings) ([ApplySyntax](https://github.com/facelessuser/ApplySyntax) - Syntax detector for Sublime Text 2)
  * [Side Bar.sublime-settings](Side Bar.sublime-settings) ([SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) - Enhancements to Sublime Text sidebar. Files and folders.)
 
