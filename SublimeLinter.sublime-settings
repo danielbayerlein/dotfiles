@@ -1,8 +1,31 @@
 {
-  "sublimelinter_executable_map":
-  {
-    "coffeescript": "/usr/local/share/npm/bin/coffee"
-  },
-  "sublimelinter_gutter_marks": true,
-  "sublimelinter_mark_style": "fill"
+  "user": {
+    "debug": false,
+    "delay": 0.25,
+    "error_color": "D02000",
+    "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+    "gutter_theme_excludes": [],
+    "lint_mode": "background",
+    "linters": {},
+    "mark_style": "outline",
+    "no_column_highlights_line": false,
+    "paths": {
+      "linux": [],
+      "osx": [],
+      "windows": []
+    },
+    "python_paths": {
+      "linux": [],
+      "osx": [],
+      "windows": []
+    },
+    "rc_search_limit": 3,
+    "show_errors_on_save": false,
+    "show_marks_in_minimap": true,
+    "syntax_map": {
+      "php": "html"
+    },
+    "warning_color": "DDB700",
+    "wrap_find": true
+  }
 }

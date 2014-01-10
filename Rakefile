@@ -49,7 +49,7 @@ namespace :vim do
 end
 
 def sublime_configuration_file(file)
-  "#{Dir.home}/Library/Application Support/Sublime Text 2/Packages/User/#{file}"
+  "#{Dir.home}/Library/Application Support/Sublime Text 3/Packages/User/#{file}"
 end
 
 def sublime_configuration_files

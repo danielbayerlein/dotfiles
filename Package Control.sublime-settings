@@ -3,15 +3,15 @@
   [
     "ApacheConf.tmLanguage",
     "ApplySyntax",
-    "CoffeeScript",
+    "Better CoffeeScript",
     "EasyMotion",
-    "Gem Browser",
     "GitGutter",
     "Haml",
     "jQuery",
     "Package Control",
     "SCSS",
     "SideBarEnhancements",
-    "SublimeLinter"
+    "SublimeLinter",
+    "Theme - Spacegray"
   ]
 }
