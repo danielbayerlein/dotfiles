@@ -2,7 +2,7 @@
   "bold_folder_labels": true,
   "caret_style": "phase",
   "close_windows_when_empty": true,
-  "color_scheme": "Packages/User/Tomorrow-Night.tmTheme",
+  "color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
@@ -32,6 +32,7 @@
   "show_full_path": true,
   "show_line_endings": true,
   "tab_size": 2,
+  "theme": "Spacegray.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true
 }
