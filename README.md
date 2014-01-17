@@ -33,8 +33,6 @@ rake dotfiles            # Runs all your task in the dotfiles namespace
 rake dotfiles:dot        # Link dotfiles
 rake dotfiles:git        # Generate .gitconfig
 rake dotfiles:sublime    # Link Sublime configuration files
-rake vim:vundle:install  # Install Vundle
-rake vim:vundle:run      # Run Vundle
 rake watch               # Watches for changes and reruns rake
 ```
 

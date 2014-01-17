@@ -10,7 +10,6 @@ namespace :dotfiles do
   desc 'Link dotfiles'
   task :dot do
     dotfiles.map { |f| link_file(repo_file(f), home_file(f)) }
-    Rake::Task['vim:vundle:run'].invoke
   end
 
   # $ rake dotfiles:sublime
@@ -26,25 +25,12 @@ namespace :dotfiles do
   task :git do
     generate_file(repo_file('.gitconfig.erb'), home_file('.gitconfig'))
   end
-end
 
-# $ rake vim
-namespace :vim do
-  # $ rake vim:vundle
-  namespace :vundle do
-    # $ rake vim:vundle:install
-    desc 'Install Vundle'
-    task :install do
-      unless Dir.exists?(vundle_dir = "#{Dir.home}/.vim/bundle/vundle")
-        system("git clone https://github.com/gmarik/vundle.git #{vundle_dir}")
-      end
+  task :vim_vundle => :dot do
+    unless Dir.exists?(vundle_dir = "#{Dir.home}/.vim/bundle/vundle")
+      system("git clone https://github.com/gmarik/vundle.git #{vundle_dir}")
     end
-
-    # $ rake vim:vundle:run
-    desc 'Run Vundle'
-    task :run => :install do
-      system('vim +BundleClean! +BundleInstall +qall')
-    end
+    system('vim +BundleClean! +BundleInstall +qall')
   end
 end
 
