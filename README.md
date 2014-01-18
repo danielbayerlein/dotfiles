@@ -56,7 +56,7 @@ rake watch               # Watches for changes and reruns rake
  * [Default (OSX).sublime-keymap](Default \(OSX\).sublime-keymap)
  * [Package Control.sublime-settings](Package Control.sublime-settings) ([Sublime Package Control](https://github.com/wbond/sublime_package_control) - A full-featured package manager for Sublime Text 3)
  * [SublimeLinter.sublime-settings](SublimeLinter.sublime-settings) ([SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) - Inline lint highlighting for the Sublime Text 3 editor)
- * [ApplySyntax.sublime-settings](ApplySyntax.sublime-settings) ([ApplySyntax](https://github.com/facelessuser/ApplySyntax) - Syntax detector for Sublime Text 2)
+ * [ApplySyntax.sublime-settings](ApplySyntax.sublime-settings) ([ApplySyntax](https://github.com/facelessuser/ApplySyntax) - Syntax detector for Sublime Text 3)
  * [Side Bar.sublime-settings](Side Bar.sublime-settings) ([SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) - Enhancements to Sublime Text sidebar. Files and folders.)
 
 * [tmux](http://tmux.sourceforge.net) is a terminal multiplexer
