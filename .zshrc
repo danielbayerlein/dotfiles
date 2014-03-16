@@ -11,7 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-export EDITOR="subl -w"
+export EDITOR="subl -n -w"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PATH=/usr/local/share/npm/bin:$PATH
 eval "$(rbenv init -)"
