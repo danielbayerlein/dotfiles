@@ -13,7 +13,6 @@ fi
 # Customize to your needs...
 export EDITOR="subl -n -w"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export PATH=/usr/local/share/npm/bin:$PATH
 eval "$(rbenv init -)"
 
 # Base16 Shell
