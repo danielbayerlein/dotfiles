@@ -2,19 +2,19 @@
 
 ## Installation
 
-1. Install [Peridot](https://github.com/svenwin/peridot) via:
+1. To get started, install [homesick](https://github.com/technicalpickles/homesick) first:
 
    ```bash
-   $ gem install peridot
+   $ gem install homesick
    ```
 
-2. [Download](../../archive/master.zip) or clone the repository via:
+2. Use the homesick command to clone my castle:
 
    ```bash
-   $ git clone https://github.com/danielbayerlein/dotfiles.git
+   $ homesick clone danielbayerlein/dotfiles
    ```
 
-3. Set your Git email address as a global environment variable via:
+3. Set your Git email address as a global environment variable:
 
    ```bash
    $ sudo su
@@ -22,18 +22,16 @@
    $ echo setenv GIT_EMAIL foo@example.com >> /etc/launchd.conf
    ```
 
-   Tested on OS X Mountain Lion (10.8)
+4. Symlinks all dotfiles:
+
+  ```bash
+  $ homesick link danielbayerlein/dotfiles
+  ```
 
 ## Usage
 
 ```bash
-$ rake -T
-
-rake dotfiles            # Runs all your task in the dotfiles namespace
-rake dotfiles:dot        # Link dotfiles
-rake dotfiles:git        # Generate .gitconfig
-rake dotfiles:sublime    # Link Sublime configuration files
-rake watch               # Watches for changes and reruns rake
+$ homesick
 ```
 
 ## Configuration files for
