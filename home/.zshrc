@@ -12,7 +12,6 @@ fi
 
 # Customize to your needs...
 export EDITOR="atom -n -w"
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 eval "$(rbenv init -)"
 
 # Base16 Shell
