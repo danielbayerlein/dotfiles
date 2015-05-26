@@ -1,4 +1,4 @@
-Pry.config.editor = 'subl -n -w'
+Pry.config.editor = 'atom -n -w'
 
 # https://github.com/kyrylo/pry-theme
 # $ gem install pry-theme
