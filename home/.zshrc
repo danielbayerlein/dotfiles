@@ -15,6 +15,5 @@ export EDITOR="atom -n -w"
 eval "$(rbenv init -)"
 
 # Base16 Shell
-if [[ -s "$HOME/.config/base16-shell/base16-ocean.dark.sh" ]]; then
-  source "$HOME/.config/base16-shell/base16-ocean.dark.sh"
-fi
+BASE16_SHELL="$HOME/.config/base16-shell/base16-ocean.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
