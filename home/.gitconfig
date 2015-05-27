@@ -1,6 +1,5 @@
 [user]
   name = Daniel Bayerlein
-  email = <%= ENV['GIT_EMAIL'] %>
 [github]
   user = danielbayerlein
 [alias]

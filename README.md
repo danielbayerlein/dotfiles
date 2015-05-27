@@ -17,9 +17,7 @@
 3. Set your Git email address as a global environment variable:
 
    ```bash
-   $ sudo su
-   $ touch /etc/launchd.conf
-   $ echo setenv GIT_EMAIL foo@example.com >> /etc/launchd.conf
+   $ /bin/launchctl setenv EMAIL foo@example.com
    ```
 
 4. Symlinks all dotfiles:
