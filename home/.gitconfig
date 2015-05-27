@@ -6,7 +6,6 @@
 [color]
   ui = true
 [core]
-  editor = atom -n -w
   autocrlf = input
   safecrlf = true
 [merge]
