@@ -63,8 +63,10 @@ $ homesick
 
 ## Configuration files for
 
+* [Atom](https://atom.io/) is a hackable text editor for the 21st Century
+
 * [Git](http://git-scm.com) is a distributed version control system
- * [.gitconfig](.gitconfig.erb)
+ * [.gitconfig](.gitconfig)
 
 * [Prezto](https://github.com/sorin-ionescu/prezto) is the configuration framework for [Zsh](http://www.zsh.org)
  * [.zshrc](.zshrc)
