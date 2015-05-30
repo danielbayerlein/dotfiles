@@ -3,3 +3,5 @@
 .vim
 .vim/colors
 .vim/bundle
+.pry
+.pry/themes

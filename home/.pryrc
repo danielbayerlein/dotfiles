@@ -1,8 +1,5 @@
 # https://github.com/kyrylo/pry-theme
 # $ gem install pry-theme
-# https://github.com/kyrylo/pry-theme-collection
-# $ cd ~/.pry/themes
-# $ wget https://raw2.github.com/kyrylo/pry-theme-collection/master/ocean/ocean.prytheme.rb
 # $ pry
 # $ pry-theme install ocean
 Pry.config.theme = 'ocean'
