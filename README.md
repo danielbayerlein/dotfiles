@@ -14,11 +14,34 @@
    $ homesick clone danielbayerlein/dotfiles
    ```
 
-3. Set your Git email address as a global environment variable:
+3. Set your Git email address as an environment variable. Create an `environment.plist` file in `~/Library/LaunchAgents/` with this content:
 
-   ```bash
-   $ /bin/launchctl setenv EMAIL foo@example.com
+   ```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+   <plist version="1.0">
+   <dict>
+     <key>Label</key>
+     <string>my.startup</string>
+     <key>ProgramArguments</key>
+     <array>
+       <string>sh</string>
+       <string>-c</string>
+       <string>
+       launchctl setenv EMAIL foo@example.com
+       </string>
+     </array>
+     <key>RunAtLoad</key>
+     <true/>
+   </dict>
+   </plist>
    ```
+
+   Replace `foo@example.com` with your Git email address.
+
+   The `plist` will activate after system reboot. You can also use `launchctl load ~/Library/LaunchAgents/environment.plist` to launch it immediately.
+
+   For more information see http://stackoverflow.com/a/26586170 and http://git-scm.com/book/uz/v2/Git-Internals-Environment-Variables.
 
 4. Symlinks all dotfiles:
 
