@@ -49,6 +49,12 @@
   $ homesick link dotfiles
   ```
 
+5. Install dependencies and plugins:
+
+  ```bash
+  $ homesick rc --force dotfiles
+  ```
+
 ## Usage
 
 ```bash
