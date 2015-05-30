@@ -21,18 +21,18 @@
    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
    <plist version="1.0">
    <dict>
-     <key>Label</key>
-     <string>my.startup</string>
-     <key>ProgramArguments</key>
-     <array>
-       <string>sh</string>
-       <string>-c</string>
-       <string>
-       launchctl setenv EMAIL foo@example.com
-       </string>
-     </array>
-     <key>RunAtLoad</key>
-     <true/>
+      <key>Label</key>
+      <string>my.startup</string>
+      <key>ProgramArguments</key>
+      <array>
+         <string>sh</string>
+         <string>-c</string>
+         <string>
+         launchctl setenv EMAIL foo@example.com
+         </string>
+      </array>
+      <key>RunAtLoad</key>
+      <true/>
    </dict>
    </plist>
    ```
@@ -46,7 +46,7 @@
 4. Symlinks all dotfiles:
 
   ```bash
-  $ homesick link danielbayerlein/dotfiles
+  $ homesick link dotfiles
   ```
 
 ## Usage
