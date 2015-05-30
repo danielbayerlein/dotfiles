@@ -2,3 +2,4 @@
 .config/base16-shell
 .vim
 .vim/colors
+.vim/bundle
