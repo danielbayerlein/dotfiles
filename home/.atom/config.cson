@@ -3,11 +3,9 @@
     userId: "77389192-9988-507c-a785-6f4a3be2a5ba"
   welcome:
     showOnStartup: false
-  core:
-    {}
+  core: {}
   editor:
-    invisibles:
-      {}
+    invisibles: {}
     fontFamily: "Monaco"
     fontSize: 12
     lineHeight: 1.45
