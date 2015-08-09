@@ -28,6 +28,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-haml'
 Bundle 'vim-ruby/vim-ruby'
 
+call vundle#end()
 filetype plugin indent on " Enable filetype plugins
 
 set encoding=utf-8    " Set utf-8 as standard encoding
