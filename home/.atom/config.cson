@@ -7,7 +7,7 @@
   editor:
     invisibles: {}
     fontFamily: "Monaco"
-    fontSize: 12
     lineHeight: 1.45
     showIndentGuide: true
     showInvisibles: true
+    fontSize: 12
