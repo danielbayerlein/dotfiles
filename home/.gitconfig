@@ -1,13 +1,10 @@
-[user]
-  name = Daniel Bayerlein
-[github]
-  user = danielbayerlein
-[alias]
 [color]
   ui = true
 [core]
   autocrlf = input
   safecrlf = true
+[include]
+  path = ~/.gitconfig.local
 [merge]
   tool = opendiff
 [push]
