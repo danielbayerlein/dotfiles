@@ -20,8 +20,6 @@
   [user]
      name = Foo Example
      email = foo@example.com
-  [github]
-     user = fooexample
   ```
 
 4. Symlinks all dotfiles:
