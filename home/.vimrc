@@ -6,27 +6,27 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Essential Plugins
-Bundle 'VundleVim/Vundle.vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'kien/ctrlp.vim'
-Bundle 'bling/vim-airline'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'tomtom/tcomment_vim'
-Bundle 'scrooloose/syntastic'
-Bundle 'tsaleh/vim-supertab'
-Bundle 'tpope/vim-endwise'
-Bundle 'Townk/vim-autoclose'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'tpope/vim-fugitive'
-Bundle 'terryma/vim-multiple-cursors'
-Bundle 'moll/vim-bbye'
-Bundle 'matze/vim-move'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'bling/vim-airline'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'tsaleh/vim-supertab'
+Plugin 'tpope/vim-endwise'
+Plugin 'Townk/vim-autoclose'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'moll/vim-bbye'
+Plugin 'matze/vim-move'
 
 " Syntax highlighting
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'tpope/vim-haml'
-Bundle 'vim-ruby/vim-ruby'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-haml'
+Plugin 'vim-ruby/vim-ruby'
 
 call vundle#end()
 filetype plugin indent on " Enable filetype plugins
