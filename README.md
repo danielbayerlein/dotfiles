@@ -45,20 +45,20 @@ $ homesick
 * [Atom](https://atom.io/) is a hackable text editor for the 21st Century
 
 * [Git](http://git-scm.com) is a distributed version control system
- * [.gitconfig](.gitconfig)
+ * [.gitconfig](home/.gitconfig)
 
 * [Prezto](https://github.com/sorin-ionescu/prezto) is the configuration framework for [Zsh](http://www.zsh.org)
- * [.zshrc](.zshrc)
- * [.zpreztorc](.zpreztorc)
+ * [.zshrc](home/.zshrc)
+ * [.zpreztorc](home/.zpreztorc)
 
 * [Pry](https://github.com/pry/pry) is a powerful alternative to the standard IRB shell for Ruby
- * [.pryrc](.pryrc)
+ * [.pryrc](home/.pryrc)
 
 * [RubyGems](https://rubygems.org) is the Ruby community's gem hosting service
- * [.gemrc](.gemrc)
+ * [.gemrc](home/.gemrc)
 
 * [tmux](http://tmux.sourceforge.net) is a terminal multiplexer
- * [.tmux.conf](.tmux.conf)
+ * [.tmux.conf](home/.tmux.conf)
 
 * [Vim](http://www.vim.org) is a highly configurable text editor
- * [.vimrc](.vimrc)
+ * [.vimrc](home/.vimrc)
