@@ -24,7 +24,6 @@ Plugin 'moll/vim-bbye'
 Plugin 'matze/vim-move'
 
 " Syntax highlighting
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-haml'
 Plugin 'vim-ruby/vim-ruby'
 
