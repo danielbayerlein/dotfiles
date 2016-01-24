@@ -91,7 +91,7 @@ nmap º <Plug>MoveLineDown
 nmap ∆ <Plug>MoveLineUp
 
 " Automatically removing all trailing whitespace
-autocmd FileType coffee,javascript,ruby,haml,scss autocmd BufWritePre <buffer> :%s/\s\+$//e
+autocmd FileType javascript,ruby,haml,scss autocmd BufWritePre <buffer> :%s/\s\+$//e
 
 " Indentation settings
 set nowrap       " Don't wrap lines
