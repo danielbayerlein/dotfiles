@@ -11,7 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-export EDITOR="atom -nw"
+
+# Editor
+export VISUAL=vim
+export EDITOR=$VISUAL
 
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/base16-ocean.dark.sh"
