@@ -47,6 +47,9 @@ $ homesick
 * [Git](http://git-scm.com) is a distributed version control system
  * [.gitconfig](home/.gitconfig)
 
+* [HyperTerm](https://hyperterm.org) is a JS/HTML/CSS Terminal
+ * [.hyperterm.js](home/.hyperterm.js)
+
 * [Prezto](https://github.com/sorin-ionescu/prezto) is the configuration framework for [Zsh](http://www.zsh.org)
  * [.zshrc](home/.zshrc)
  * [.zpreztorc](home/.zpreztorc)
