@@ -1,5 +1,3 @@
-.config
-.config/base16-shell
 .vim
 .vim/autoload/airline/themes
 .vim/bundle
