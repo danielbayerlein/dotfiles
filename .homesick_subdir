@@ -1,8 +1,9 @@
 .config
 .config/base16-shell
 .vim
-.vim/colors
+.vim/autoload/airline/themes
 .vim/bundle
+.vim/colors
 .pry
 .pry/themes
 .atom
