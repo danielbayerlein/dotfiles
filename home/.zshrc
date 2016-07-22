@@ -15,3 +15,6 @@ fi
 # Editor
 export VISUAL=vim
 export EDITOR=$VISUAL
+
+export NVM_DIR="$HOME/.nvm"
+  . "$(brew --prefix nvm)/nvm.sh"
