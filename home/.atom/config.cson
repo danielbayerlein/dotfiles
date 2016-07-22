@@ -1,13 +1,20 @@
 "*":
-  "exception-reporting":
-    userId: "77389192-9988-507c-a785-6f4a3be2a5ba"
-  welcome:
-    showOnStartup: false
   core: {}
   editor:
-    invisibles: {}
     fontFamily: "Monaco"
+    fontSize: 12
+    invisibles: {}
     lineHeight: 1.45
     showIndentGuide: true
     showInvisibles: true
-    fontSize: 12
+  "exception-reporting":
+    userId: "77389192-9988-507c-a785-6f4a3be2a5ba"
+  linter:
+    errorPanelHeight: 22
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+    useGlobalEslint: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
