@@ -1,7 +1,4 @@
 #!/usr/bin/env ruby
 
-# Pry dependency
-system("gem install awesome_print")
-
 # Install Vim plugins via Vundle
 system("vim +PluginInstall +qall")

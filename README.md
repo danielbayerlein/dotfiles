@@ -54,9 +54,6 @@ $ homesick
  * [.zshrc](home/.zshrc)
  * [.zpreztorc](home/.zpreztorc)
 
-* [Pry](https://github.com/pry/pry) is a powerful alternative to the standard IRB shell for Ruby
- * [.pryrc](home/.pryrc)
-
 * [RubyGems](https://rubygems.org) is the Ruby community's gem hosting service
  * [.gemrc](home/.gemrc)
 
