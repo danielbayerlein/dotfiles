@@ -134,7 +134,6 @@ highlight clear SignColumn
 " vim-airline
 let g:airline_theme='onedark'
 let g:airline_powerline_fonts=1
-set guifont=Monaco\ for\ Powerline:h12
 set noshowmode
 
 if !has('gui_running')

@@ -1,7 +1,7 @@
 "*":
   core: {}
   editor:
-    fontFamily: "Monaco"
+    fontFamily: "Fira Code"
     fontSize: 12
     invisibles: {}
     lineHeight: 1.45
