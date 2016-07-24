@@ -22,7 +22,11 @@ module.exports = {
     css: '',
 
     // custom css to embed in the terminal window
-    termCSS: '',
+    termCSS: `
+      x-screen a {
+        color: inherit;
+      }
+    `,
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
