@@ -3,6 +3,7 @@
 [core]
   autocrlf = input
   safecrlf = true
+  untrackedCache = true
   excludesfile = ~/.gitignore_global
 [include]
   path = ~/.gitconfig.local
