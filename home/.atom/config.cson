@@ -13,7 +13,6 @@
     errorPanelHeight: 22
   "linter-eslint":
     globalNodePath: "/usr/local"
-    useGlobalEslint: true
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
