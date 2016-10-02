@@ -1,13 +1,19 @@
 "*":
-  "exception-reporting":
-    userId: "77389192-9988-507c-a785-6f4a3be2a5ba"
-  welcome:
-    showOnStartup: false
   core: {}
   editor:
+    fontFamily: "Fira Code"
+    fontSize: 12
     invisibles: {}
-    fontFamily: "Monaco"
     lineHeight: 1.45
     showIndentGuide: true
     showInvisibles: true
-    fontSize: 12
+  "exception-reporting":
+    userId: "77389192-9988-507c-a785-6f4a3be2a5ba"
+  linter:
+    errorPanelHeight: 22
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

@@ -11,7 +11,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'scrooloose/syntastic'
@@ -50,7 +49,7 @@ set ruler        " Show the cursor position all the time
 set cursorline   " Highlight current line
 set showmatch    " Cursor shows matching ) and }
 set showmode     " Show the current mode
-if version >= 703
+if exists('+colorcolumn')
   set colorcolumn=80
 endif
 
@@ -124,21 +123,20 @@ set nobackup   " Do not keep backup files
 set noswapfile " Do not write annoying intermediate swap files
 
 " Default color scheme
-let base16colorspace=256 " Access colors present in 256 colorspace
-set t_Co=256 " 256 color mode
-set background=dark
-colorscheme base16-ocean
+if has('termguicolors')
+  set termguicolors
+endif
+colorscheme onedark
 
 " Vim Git Gutter
 highlight clear SignColumn
 
 " vim-airline
-let g:airline_theme='base16'
+let g:airline_theme='onedark'
 let g:airline_powerline_fonts=1
-set guifont=Monaco\ for\ Powerline:h12
 set noshowmode
 
-if ! has('gui_running')
+if !has('gui_running')
   set ttimeoutlen=10
   augroup FastEscape
     autocmd!

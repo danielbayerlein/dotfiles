@@ -3,6 +3,10 @@
 [core]
   autocrlf = input
   safecrlf = true
+  untrackedCache = true
+  excludesfile = ~/.gitignore_global
+[diff]
+  compactionHeuristic = true
 [include]
   path = ~/.gitconfig.local
 [merge]

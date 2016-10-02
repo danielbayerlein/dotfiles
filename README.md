@@ -47,12 +47,12 @@ $ homesick
 * [Git](http://git-scm.com) is a distributed version control system
  * [.gitconfig](home/.gitconfig)
 
+* [HyperTerm](https://hyperterm.org) is a JS/HTML/CSS Terminal
+ * [.hyperterm.js](home/.hyperterm.js)
+
 * [Prezto](https://github.com/sorin-ionescu/prezto) is the configuration framework for [Zsh](http://www.zsh.org)
  * [.zshrc](home/.zshrc)
  * [.zpreztorc](home/.zpreztorc)
-
-* [Pry](https://github.com/pry/pry) is a powerful alternative to the standard IRB shell for Ruby
- * [.pryrc](home/.pryrc)
 
 * [RubyGems](https://rubygems.org) is the Ruby community's gem hosting service
  * [.gemrc](home/.gemrc)
