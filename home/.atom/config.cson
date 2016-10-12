@@ -1,5 +1,6 @@
 "*":
-  core: {}
+  core:
+    telemetryConsent: "no"
   editor:
     fontFamily: "Fira Code"
     fontSize: 12
