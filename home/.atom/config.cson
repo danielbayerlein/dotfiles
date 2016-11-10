@@ -1,5 +1,6 @@
 "*":
   core:
+    projectHome: "~/Projects"
     telemetryConsent: "no"
   editor:
     fontFamily: "Fira Code"
