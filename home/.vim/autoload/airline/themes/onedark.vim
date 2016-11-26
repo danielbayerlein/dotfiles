@@ -1,9 +1,9 @@
-" [onedark.vim](https://github.com/joshdick/airline-onedark.vim/)
+" [onedark.vim](https://github.com/joshdick/onedark.vim/)
 
-" This is a [vim-airline](https://github.com/bling/vim-airline) theme for use with
+" This is a [vim-airline](https://github.com/vim-airline/vim-airline) theme for use with
 " the [onedark.vim](https://github.com/joshdick/onedark.vim) colorscheme.
 
-" It is based on vim-airline's ["tomorrow" theme](https://github.com/bling/vim-airline/blob/master/autoload/airline/themes/tomorrow.vim).
+" It is based on vim-airline's ["tomorrow" theme](https://github.com/vim-airline/vim-airline-themes/blob/master/autoload/airline/themes/tomorrow.vim).
 
 let g:airline#themes#onedark#palette = {}
 
@@ -28,9 +28,9 @@ function! airline#themes#onedark#refresh()
   let g:airline#themes#onedark#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
   let g:airline#themes#onedark#palette.insert_modified = g:airline#themes#onedark#palette.normal_modified
 
-  let s:R1 = airline#themes#get_highlight('Error')
+  let s:R1 = airline#themes#get_highlight2(['Normal', 'bg'], ['Error', 'fg'])
   let s:R2 = s:N2
-  let s:R3 = airline#themes#get_highlight2(['Error', 'fg'], ['Normal', 'bg'])
+  let s:R3 = airline#themes#get_highlight('Error')
   let g:airline#themes#onedark#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
   let g:airline#themes#onedark#palette.replace_modified = g:airline#themes#onedark#palette.normal_modified
 
