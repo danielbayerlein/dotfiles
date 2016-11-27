@@ -43,22 +43,9 @@ $ homesick
 ## Configuration files for
 
 * [Atom](https://atom.io/) is a hackable text editor for the 21st Century
-
 * [Git](http://git-scm.com) is a distributed version control system
- * [.gitconfig](home/.gitconfig)
-
 * [Hyper.app](https://hyper.is) is a JS/HTML/CSS Terminal
- * [.hyper.js](home/.hyper.js)
-
 * [Prezto](https://github.com/sorin-ionescu/prezto) is the configuration framework for [Zsh](http://www.zsh.org)
- * [.zshrc](home/.zshrc)
- * [.zpreztorc](home/.zpreztorc)
-
 * [RubyGems](https://rubygems.org) is the Ruby community's gem hosting service
- * [.gemrc](home/.gemrc)
-
 * [tmux](http://tmux.sourceforge.net) is a terminal multiplexer
- * [.tmux.conf](home/.tmux.conf)
-
 * [Vim](http://www.vim.org) is a highly configurable text editor
- * [.vimrc](home/.vimrc)
