@@ -6,7 +6,7 @@
   untrackedCache = true
   excludesfile = ~/.gitignore_global
 [diff]
-  compactionHeuristic = true
+  indentHeuristic = true
 [include]
   path = ~/.gitconfig.local
 [merge]
