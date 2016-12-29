@@ -45,7 +45,7 @@ $ homesick
 * [Atom](https://atom.io/) is a hackable text editor for the 21st Century
 * [Git](http://git-scm.com) is a distributed version control system
 * [Hyper.app](https://hyper.is) is a JS/HTML/CSS Terminal
-* [Prezto](https://github.com/sorin-ionescu/prezto) is the configuration framework for [Zsh](http://www.zsh.org)
+* [Prezto](https://github.com/zsh-users/prezto) is the configuration framework for [Zsh](http://www.zsh.org)
 * [RubyGems](https://rubygems.org) is the Ruby community's gem hosting service
 * [tmux](http://tmux.sourceforge.net) is a terminal multiplexer
 * [Vim](http://www.vim.org) is a highly configurable text editor
