@@ -5,13 +5,13 @@
 1. To get started, install [homesick](https://github.com/technicalpickles/homesick) first:
 
   ```bash
-  $ gem install homesick
+  gem install homesick
   ```
 
 2. Use the `homesick` command to clone my castle:
 
   ```bash
-  $ homesick clone danielbayerlein/dotfiles
+  homesick clone danielbayerlein/dotfiles
   ```
 
 3. Put your Git credentials into `~/.gitconfig.local`. For example:
@@ -25,19 +25,19 @@
 4. Symlinks all dotfiles:
 
   ```bash
-  $ homesick link dotfiles
+  homesick link dotfiles
   ```
 
 5. Install dependencies and plugins:
 
   ```bash
-  $ homesick rc --force dotfiles
+  homesick rc --force dotfiles
   ```
 
 ## Usage
 
 ```bash
-$ homesick
+homesick
 ```
 
 ## Configuration files for
