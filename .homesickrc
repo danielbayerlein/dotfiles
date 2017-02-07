@@ -1,4 +1,18 @@
 #!/usr/bin/env ruby
 
+# Install Homebrew
+unless File.file?('/usr/local/bin/brew')
+  system('/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"')
+end
+
+# Install Homebrew Bundle
+system('brew tap Homebrew/bundle')
+
+# Install dependencies via Homebrew
+system('brew bundle')
+
 # Install Vim plugins via Vundle
-system("vim +PluginInstall +qall")
+system('vim +PluginInstall +qall')
+
+# Install Zsh plugins via zplug
+system('zplug install')
