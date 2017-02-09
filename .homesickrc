@@ -5,6 +5,9 @@ unless File.file?('/usr/local/bin/brew')
   system('/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"')
 end
 
+# Opt-out of Homebrew's analytics
+system('brew analytics off')
+
 # Install Homebrew Bundle
 system('brew tap Homebrew/bundle')
 
