@@ -12,7 +12,7 @@ system('brew analytics off')
 system('brew tap Homebrew/bundle')
 
 # Install dependencies via Homebrew
-system('brew bundle')
+system('brew bundle --global')
 
 # Install Vim plugins via Vundle
 system('vim +PluginInstall +qall')
