@@ -20,6 +20,12 @@ export PAGER=less
 export BROWSER='open'
 
 #
+# Key Bindings
+#
+
+bindkey -e
+
+#
 # zplug - Zsh Plugin Manager
 #
 
