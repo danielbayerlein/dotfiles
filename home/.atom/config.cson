@@ -15,7 +15,5 @@
   "linter-js-standard":
     checkStyleDevDependencies: true
     showEslintRules: true
-  "linter-ui-default":
-    showPanel: true
   welcome:
     showOnStartup: false
