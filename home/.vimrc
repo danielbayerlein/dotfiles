@@ -65,13 +65,13 @@ set noerrorbells " Don't beep
 let mapleader=','
 let g:mapleader=','
 
-" NERDTree
+" NERDTree (https://github.com/scrooloose/nerdtree)
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\~$', '^\.DS_Store$', '^\.bundle$', '^\.git$', '^\.sass-cache$']
 let g:nerdtree_tabs_open_on_console_startup=1
 map <Leader>n :NERDTreeToggle<CR>
 
-" Bbye (Buffer Bye) for Vim
+" vim-bbye (https://github.com/moll/vim-bbye)
 :nnoremap <Leader>q :Bdelete<CR>
 
 " Easy split navigation
@@ -80,7 +80,7 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 
-" vim-move
+" vim-move (https://github.com/matze/vim-move)
 let g:move_map_keys=0
 vmap º <Plug>MoveBlockDown
 vmap ∆ <Plug>MoveBlockUp
@@ -103,7 +103,7 @@ set incsearch  " Incremental search
 set ignorecase " Ignore case when searching
 set smartcase  " Ignore case if search pattern is all lc, cs or otherwise
 
-" Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
+" The Silver Searcher (https://github.com/ggreer/the_silver_searcher)
 if executable('ag')
   " Use ag over Grep
   set grepprg=ag\ --nogroup\ --nocolor
@@ -112,7 +112,7 @@ if executable('ag')
   let g:ctrlp_user_command='ag %s -l --nocolor -g ""'
 endif
 
-" CtrlP
+" ctrlp.vim (https://github.com/ctrlpvim/ctrlp.vim)
 let g:ctrlp_show_hidden=1
 
 " Backup / Swap File
@@ -128,11 +128,12 @@ silent! colorscheme onedark
 " Vim Git Gutter
 highlight clear SignColumn
 
-" vim-airline
+" vim-airline (https://github.com/vim-airline/vim-airline)
 let g:airline_theme='onedark'
 let g:airline_powerline_fonts=1
 set noshowmode
 
+" Speed up transition from modes
 if !has('gui_running')
   set ttimeoutlen=10
   augroup FastEscape
