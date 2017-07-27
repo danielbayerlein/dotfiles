@@ -119,11 +119,11 @@ let g:ctrlp_show_hidden=1
 set nobackup   " Do not keep backup files
 set noswapfile " Do not write annoying intermediate swap files
 
-" Default color scheme
+" Color scheme
 if has('termguicolors')
   set termguicolors
 endif
-colorscheme onedark
+silent! colorscheme onedark
 
 " Vim Git Gutter
 highlight clear SignColumn
