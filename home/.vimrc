@@ -1,12 +1,7 @@
-set nocompatible " Make Vim more useful
-
-" Vundle, the plug-in manager for Vim
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" vim-plug (https://github.com/junegunn/vim-plug)
+call plug#begin()
 
 " Essential Plugins
-Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
@@ -27,8 +22,7 @@ Plugin 'matze/vim-move'
 Plugin 'tpope/vim-haml'
 Plugin 'vim-ruby/vim-ruby'
 
-call vundle#end()
-filetype plugin indent on " Enable filetype plugins
+call plug#end()
 
 set encoding=utf-8    " Set utf-8 as standard encoding
 set clipboard=unnamed " Use the OS clipboard by default
