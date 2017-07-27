@@ -43,9 +43,9 @@ homesick
 ## Configuration files for
 
 * [Atom](https://atom.io/) is a hackable text editor for the 21st Century
-* [Git](http://git-scm.com) is a distributed version control system
+* [Git](https://git-scm.com) is a distributed version control system
 * [Hyper™](https://hyper.is) is a JS/HTML/CSS Terminal
 * [RubyGems](https://rubygems.org) is the Ruby community's gem hosting service
-* [tmux](http://tmux.sourceforge.net) is a terminal multiplexer
+* [tmux](https://github.com/tmux/tmux/wiki) is a terminal multiplexer
 * [Vim](http://www.vim.org) is a highly configurable text editor
 * [Zsh](http://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language
