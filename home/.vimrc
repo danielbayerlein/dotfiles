@@ -2,25 +2,25 @@
 call plug#begin()
 
 " Essential Plugins
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'tsaleh/vim-supertab'
-Plugin 'tpope/vim-endwise'
-Plugin 'Townk/vim-autoclose'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'moll/vim-bbye'
-Plugin 'matze/vim-move'
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'tomtom/tcomment_vim'
+Plug 'scrooloose/syntastic'
+Plug 'tsaleh/vim-supertab'
+Plug 'tpope/vim-endwise'
+Plug 'Townk/vim-autoclose'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'moll/vim-bbye'
+Plug 'matze/vim-move'
 
 " Syntax highlighting
-Plugin 'tpope/vim-haml'
-Plugin 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-haml'
+Plug 'vim-ruby/vim-ruby'
 
 " Color scheme
 Plug 'joshdick/onedark.vim'
