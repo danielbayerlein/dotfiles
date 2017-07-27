@@ -1,7 +1,7 @@
 " vim-plug (https://github.com/junegunn/vim-plug)
 call plug#begin()
 
-" Essential Plugins
+" Essential plugins
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ctrlpvim/ctrlp.vim'
