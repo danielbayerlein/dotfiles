@@ -4,7 +4,7 @@ call plug#begin()
 " Essential Plugins
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tomtom/tcomment_vim'
