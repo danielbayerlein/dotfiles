@@ -22,6 +22,9 @@ Plugin 'matze/vim-move'
 Plugin 'tpope/vim-haml'
 Plugin 'vim-ruby/vim-ruby'
 
+" Color scheme
+Plug 'joshdick/onedark.vim'
+
 call plug#end()
 
 set encoding=utf-8    " Set utf-8 as standard encoding
