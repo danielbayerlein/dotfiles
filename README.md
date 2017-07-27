@@ -18,8 +18,8 @@
 
   ```
   [user]
-     name = Foo Example
-     email = foo@example.com
+    name = Foo Example
+    email = foo@example.com
   ```
 
 4. Symlinks all dotfiles:
