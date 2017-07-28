@@ -1,7 +1,6 @@
 " vim-plug (https://github.com/junegunn/vim-plug)
 call plug#begin()
 
-" Essential plugins
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -17,12 +16,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'moll/vim-bbye'
 Plug 'matze/vim-move'
-
-" Syntax highlighting
-Plug 'tpope/vim-haml'
-Plug 'vim-ruby/vim-ruby'
-
-" Color scheme
 Plug 'joshdick/onedark.vim'
 
 call plug#end()
