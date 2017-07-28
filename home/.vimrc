@@ -37,18 +37,16 @@ if exists('$TMUX')
 endif
 set autoread          " Set to auto read when a file is changed from the outside
 
-syntax on        " Syntax highlighting
-set number       " Show line numbers
-set showcmd      " Show the (partial) command as it’s being typed
-set laststatus=2 " Always show status line
-set title        " Change the terminal's title
-set ruler        " Show the cursor position all the time
-set cursorline   " Highlight current line
-set showmatch    " Cursor shows matching ) and }
-set showmode     " Show the current mode
-if exists('+colorcolumn')
-  set colorcolumn=80
-endif
+syntax on          " Syntax highlighting
+set number         " Show line numbers
+set showcmd        " Show the (partial) command as it’s being typed
+set laststatus=2   " Always show status line
+set title          " Change the terminal's title
+set ruler          " Show the cursor position all the time
+set cursorline     " Highlight current line
+set showmatch      " Cursor shows matching ) and }
+set showmode       " Show the current mode
+set colorcolumn=80 " Highlight specific column
 
 " Display unprintable characters
 set list listchars=tab:→\ ,trail:·,extends:»,precedes:«
