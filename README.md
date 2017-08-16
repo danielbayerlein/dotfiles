@@ -48,4 +48,4 @@ homesick
 * [RubyGems](https://rubygems.org) is the Ruby community's gem hosting service
 * [tmux](https://github.com/tmux/tmux/wiki) is a terminal multiplexer
 * [Vim](http://www.vim.org) is a highly configurable text editor
-* [Zsh](http://www.zsh.org) is a shell designed for interactive use, although it is also a powerful scripting language
+* [Zsh](http://zsh.sourceforge.net) is a shell designed for interactive use, although it is also a powerful scripting language
