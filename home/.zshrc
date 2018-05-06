@@ -36,6 +36,7 @@ source $ZPLUG_HOME/init.zsh
 
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search"
+zplug "zsh-users/zsh-autosuggestions"
 zplug "sindresorhus/pure", use:"{async,pure}.zsh", as:theme
 zplug "danielbayerlein/zsh-plugins"
 
