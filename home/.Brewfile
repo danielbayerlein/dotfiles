@@ -1,6 +1,6 @@
 brew 'git'
 brew 'maven'
-brew 'node'
+brew 'n'
 brew 'python'
 brew 'rbenv'
 brew 'reattach-to-user-namespace'
