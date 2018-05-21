@@ -1,3 +1,4 @@
+brew 'bat'
 brew 'git'
 brew 'maven'
 brew 'n'
