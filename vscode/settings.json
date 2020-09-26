@@ -1,0 +1,14 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.shell.osx": "zsh",
+  "terminal.external.osxExec": "Hyper.app",
+  "workbench.editor.showTabs": true,
+  "window.zoomLevel": 0,
+  "editor.fontLigatures": true
+}
