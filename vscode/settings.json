@@ -10,5 +10,7 @@
   "terminal.external.osxExec": "Hyper.app",
   "workbench.editor.showTabs": true,
   "window.zoomLevel": 0,
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
