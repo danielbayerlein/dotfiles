@@ -18,6 +18,12 @@ Plug 'moll/vim-bbye'
 Plug 'matze/vim-move'
 Plug 'joshdick/onedark.vim'
 
+" Automatic installation of missing plugins on startup
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif
+
 call plug#end()
 
 set encoding=utf-8    " Set utf-8 as standard encoding
