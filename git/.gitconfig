@@ -8,7 +8,7 @@
 [diff]
   indentHeuristic = true
 [include]
-  path = ~/.gitconfig.local
+  path = ~/.gitconfig_local
 [merge]
   tool = opendiff
 [push]
