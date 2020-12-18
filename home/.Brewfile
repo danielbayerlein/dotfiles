@@ -1,3 +1,4 @@
+brew 'awscli'
 brew 'bat'
 brew 'git'
 brew 'maven'
