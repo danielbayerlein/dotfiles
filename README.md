@@ -17,7 +17,7 @@ git clone https://github.com/danielbayerlein/dotfiles ~/.dotfiles
 
 ### Git
 
-Put your Git credentials into `~/.gitconfig.local`. For example:
+Put your Git credentials into `~/.gitconfig_local`. For example:
 
 ```
 [user]
