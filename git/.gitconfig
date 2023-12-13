@@ -9,6 +9,8 @@
   indentHeuristic = true
 [include]
   path = ~/.gitconfig_local
+[includeIf "gitdir/i:~/Projects/Private/**"]
+  path = ~/.gitconfig_private
 [merge]
   tool = opendiff
 [push]
