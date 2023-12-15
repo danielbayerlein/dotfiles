@@ -28,19 +28,15 @@ bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
 #
-# zplug - Zsh Plugin Manager
+# antidote - Zsh Plugin Manager
 #
 
-source ~/.zplug/init.zsh
+source ~/.antidote/antidote.zsh
 
-zplug "zsh-users/zsh-syntax-highlighting", defer:2
-zplug "zsh-users/zsh-history-substring-search"
-zplug "zsh-users/zsh-autosuggestions"
-zplug "sindresorhus/pure", use:"{async,pure}.zsh", as:theme
-zplug "danielbayerlein/zsh-plugins"
+antidote load
 
-if ! zplug check --verbose; then
-  zplug install
-fi
+#
+# Prompt
+#
 
-zplug load
+autoload -Uz promptinit && promptinit && prompt pure
