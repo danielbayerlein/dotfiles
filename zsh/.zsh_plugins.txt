@@ -1,0 +1,5 @@
+zsh-users/zsh-autosuggestions kind:defer
+zsh-users/zsh-history-substring-search kind:defer
+zsh-users/zsh-syntax-highlighting kind:defer
+sindresorhus/pure kind:fpath
+danielbayerlein/zsh-plugins
