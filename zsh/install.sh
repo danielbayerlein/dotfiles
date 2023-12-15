@@ -1,7 +1,6 @@
 #!/bin/sh
 
-if [ ! -d ~/.zplug ]; then
+if [ ! -d ~/.antidote ]; then
   echo '🌺 Installing Zsh plugin manager'
-  curl -sL --proto-redir -all,https \
-    https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+  git clone --depth=1 https://github.com/mattmc3/antidote.git ~/.antidote
 fi
